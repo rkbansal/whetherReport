@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%
+
+}
+
+html {
+  height: 100%
+}
+.city-list{
+  width: 50%;
+  height: 100%;
+  /* float: left; */
+  background-color: #5f9ea012;
+  line-height: 10rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.city-details-container {
+  width: 50%;
+  background: white;
+  display: flex;
+}
+
+#root {
+  height: 100%;
+}
+.App {
+  height: 100%;
+  display: flex;
+}
+
+
+.city-card {
+  background: white;
+  width: calc('100% - 60px');
+  border-radius: 4px;
+  font-size: 18px;
+  margin: 30px;
+  padding: 10px;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.15);
+  cursor: pointer;
+}
+
+.city-details-card {
+  width: 80%;
+  height: 400px;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.15);
+  margin: auto;
+  background-color: #5f9ea012;
+
+  /* margin: 50px 0 20px 0; */
+}
